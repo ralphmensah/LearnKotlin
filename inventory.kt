@@ -13,10 +13,10 @@ fun main(){
 
     val listOfProducts = listOf<Product>(product1,product2,product3,product4)
 
-    println(listOfProducts)
+    // println(listOfProducts)
 
-    val newList = listOfProducts[1].copy()
-    println(newList)
+    val newP1 = product1.copy(price = 10.0)
+    println(newP1)
 
     
 }
@@ -25,6 +25,3 @@ fun main(){
 //every product has a 10% discount, but keep the original list intact 
 //(immutability).
 
-fun sale(){
-
-}
